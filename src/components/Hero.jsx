@@ -19,7 +19,7 @@ const Hero = () => {
 				<h1 className="text-center font-display2 text-5xl text-white">
 					Tu tienda original
 				</h1>
-				<hr className="w-2/3 border-2 border-orange-500/70" />
+				<hr className="w-2/3 border-2 border-dashed border-orange-500/70" />
 				<div className="flex w-full items-center justify-center gap-5 px-5">
 					<AdidasSVG tailwind={'fill-white w-12'} />
 					<RS21SVG tailwind={'w-12'} />

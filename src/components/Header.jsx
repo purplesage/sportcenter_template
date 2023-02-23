@@ -12,7 +12,7 @@ const Header = () => {
 				SPORTCENTER
 			</h3>
 
-			<BiMenu className="mr-5 h-8 w-8 text-orange-500" />
+			<BiMenu className="mr-5 h-6 w-6 text-orange-500" />
 		</div>
 	);
 };
