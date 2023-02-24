@@ -16,10 +16,9 @@ const Hero = () => {
 			/>
 
 			<div className="absolute inset-x-4 top-1/3 flex flex-col items-center gap-3">
-				<h1 className="text-center font-display2 text-5xl text-white">
+				<h1 className="text-center font-display2 text-5xl tracking-wide text-white">
 					Tu tienda original
 				</h1>
-				<hr className="w-2/3 border-2 border-dashed border-orange-500/70" />
 				<div className="flex w-full items-center justify-center gap-5 px-5">
 					<AdidasSVG tailwind={'fill-white w-12'} />
 					<RS21SVG tailwind={'w-12'} />
@@ -29,7 +28,7 @@ const Hero = () => {
 				<div className="mt-12">
 					<a
 						href="#"
-						className="rounded-full bg-orange-500 px-3 py-2 font-display tracking-wide text-white shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+						className="rounded-full bg-orange-500 px-3 py-2 font-display tracking-wide text-orange-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
 					>
 						Comprar
 					</a>
