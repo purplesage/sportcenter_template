@@ -4,6 +4,7 @@ import AdidasSVG from './AdidasSVG';
 import RS21SVG from './RS21SVG';
 import WilsonSVG from './WilsonSVG';
 import ReebokSVG from './ReebokSVG';
+import { HiShoppingCart } from 'react-icons/hi';
 
 const Hero = () => {
 	return (
@@ -28,8 +29,11 @@ const Hero = () => {
 				<div className="mt-12">
 					<a
 						href="#"
-						className="rounded-full bg-orange-500 px-3 py-2 font-display tracking-wide text-orange-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+						className="flex items-center gap-2 rounded-full border-2 border-orange-500 bg-orange-500/40 px-3 py-2 font-display text-sm font-bold tracking-wider text-orange-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
 					>
+						<span>
+							<HiShoppingCart className="h-5 w-5" />
+						</span>
 						Comprar
 					</a>
 				</div>
