@@ -2,6 +2,7 @@
 import Hero from '../components/Hero';
 import GenreFilter from '../components/GenreFilter';
 import Store from '../components/Store';
+import Header from '../components/Header';
 ---
 
 <html lang="en">
@@ -30,7 +31,9 @@ import Store from '../components/Store';
 		/>
 		<title>SPORTCENTER | Inicio</title>
 	</head>
-	<body>
+	<body class="relative">
+		<Header />
+
 		<Hero />
 		<GenreFilter />
 		<Store />

@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from './Header';
 import AdidasSVG from './AdidasSVG';
 import RS21SVG from './RS21SVG';
 import WilsonSVG from './WilsonSVG';
@@ -9,7 +8,6 @@ import { HiShoppingCart } from 'react-icons/hi';
 const Hero = () => {
 	return (
 		<section className="relative h-96 w-full">
-			<Header />
 			<img
 				className=" h-full w-full object-cover"
 				src="/baseballkid1.webp"
@@ -17,7 +15,7 @@ const Hero = () => {
 			/>
 
 			<div className="absolute inset-x-4 top-1/3 flex flex-col items-center gap-3">
-				<h1 className="text-center font-display2 text-5xl tracking-wide text-white">
+				<h1 className="mb-3 text-center font-display2 text-5xl tracking-wide text-white">
 					Tu tienda original
 				</h1>
 				<div className="flex w-full items-center justify-center gap-5 px-5">
@@ -26,7 +24,7 @@ const Hero = () => {
 					<WilsonSVG tailwind={'fill-red-600 w-12'} />
 					<ReebokSVG tailwind={'fill-blue-700 w-12'} />
 				</div>
-				<div className="mt-12">
+				<div className="mt-10">
 					<a
 						href="#"
 						className="flex items-center gap-2 rounded-full border-2 border-orange-500 bg-orange-500/40 px-3 py-2 font-display text-sm font-bold tracking-wider text-orange-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
