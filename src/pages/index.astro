@@ -3,9 +3,10 @@ import Hero from '../components/Hero';
 import GenreFilter from '../components/GenreFilter';
 import Store from '../components/Store';
 import WhatsappSVG from '../components/WhatsappSVG';
+import { MdKeyboardArrowUp } from 'react-icons/md';
 ---
 
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -32,7 +33,12 @@ import WhatsappSVG from '../components/WhatsappSVG';
 		<title>SPORTCENTER | Inicio</title>
 	</head>
 	<body class="relative">
-		<WhatsappSVG tailwind={'h-16 w-16 z-10 fixed right-0 bottom-5'} />
+		<WhatsappSVG tailwind={'h-16 w-16 z-10 fixed right-0 bottom-8'} />
+		<a href="#header">
+			<MdKeyboardArrowUp
+				className="fixed right-3 bottom-24 h-10 w-10 z-10 bg-blue-700 text-white rounded-full"
+			/>
+		</a>
 		<Hero />
 		<GenreFilter />
 		<Store />
