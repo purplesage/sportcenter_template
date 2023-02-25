@@ -15,11 +15,11 @@ const Store = () => {
 	return (
 		<section className=" h-fit bg-orange-500 p-3">
 			<header className="relative my-5 flex justify-center">
-				<h2 className="absolute top-[6rem] z-10 font-display2 text-6xl text-orange-600 [text-shadow:_0_4px_0_rgb(0_0_0_/_50%)]">
+				<h2 className="absolute top-[6rem] z-10 font-display2 text-6xl text-orange-500 [text-shadow:_0_5px_0_rgb(0_0_0_/_55%)]">
 					Tienda
 				</h2>
 				<img
-					className="aspect-square w-3/4 rounded-full shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] contrast-75"
+					className="aspect-square w-3/4 rounded-full shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.45)] contrast-75"
 					src={Closet}
 					alt="closet"
 				/>
@@ -87,7 +87,7 @@ const Store = () => {
 				<ProductCard
 					imageURL={BaseballGlove}
 					alt="shoes"
-					title="Wilson c-2000"
+					title="Wilson a-2000"
 					price={40}
 				/>
 			</div>
