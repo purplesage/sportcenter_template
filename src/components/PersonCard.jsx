@@ -1,14 +1,11 @@
 import React from 'react';
-import { GoArrowRight } from 'react-icons/go';
+import { TbHandClick } from 'react-icons/tb';
 
 const PersonCard = ({ title, imageURL, alt }) => {
 	return (
 		<div className="relative">
-			<div className="absolute top-1/2 left-5 z-10 flex items-center gap-8 font-display text-5xl text-orange-500 [text-shadow:_1px_3px_0_rgb(0_0_0_/_55%)]">
-				<h3>{title}</h3>
-				<span className="rounded-full bg-white/30 align-middle  ">
-					<GoArrowRight className="h-10 w-10" />
-				</span>
+			<div className="absolute top-1/2 left-5 z-10 flex items-center gap-8 font-display text-4xl tracking-wide text-orange-500 [text-shadow:_1px_3px_0_rgb(0_0_0_/_55%)]">
+				<h3 className="underline">{title}</h3>
 			</div>
 			<img
 				className=" h-full w-full rounded-lg object-cover "

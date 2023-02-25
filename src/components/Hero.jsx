@@ -27,8 +27,8 @@ const Hero = () => {
 				</div>
 				<div className="mt-8">
 					<a
-						href="#"
-						className="flex items-center gap-2 rounded-full border-2 border-orange-500 bg-orange-500/40 px-3 py-2 font-display text-sm font-bold tracking-wider text-orange-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+						href="#tienda"
+						className="flex items-center gap-2 rounded-full border-2 border-orange-500 bg-orange-500/60 px-3 py-2 font-display text-sm font-bold tracking-wider text-orange-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
 					>
 						<span>
 							<HiShoppingCart className="h-5 w-5" />
