@@ -14,11 +14,11 @@ const Hero = () => {
 				alt="baseball kid"
 			/>
 
-			<div className="absolute inset-x-4 top-1/4 flex flex-col items-center">
+			<div className="absolute inset-x-4 top-1/3 flex flex-col items-center">
 				<h1 className="mb-3 text-center font-display2 tracking-wide text-white/70">
 					<span className="text-2xl">Tu tienda </span>
 					<br />
-					<span className="text-5xl text-white [text-shadow:_0_4px_0_rgb(0_0_0_/_55%)]">
+					<span className=" text-6xl text-white [text-shadow:_0_4px_0_rgb(0_0_0_/_55%)]">
 						Original
 					</span>
 				</h1>
@@ -28,7 +28,7 @@ const Hero = () => {
 					<WilsonSVG tailwind={'fill-red-600 w-12'} />
 					<ReebokSVG tailwind={'fill-blue-700 w-12'} />
 				</div>
-				<div className="mt-12">
+				<div className="mt-8">
 					<a
 						href="#"
 						className="flex items-center gap-2 rounded-full border-2 border-orange-500 bg-orange-500/40 px-3 py-2 font-display text-sm font-bold tracking-wider text-orange-50 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
