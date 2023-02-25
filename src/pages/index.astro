@@ -34,12 +34,14 @@ import { MdKeyboardArrowUp } from 'react-icons/md';
 		<title>SPORTCENTER | Inicio</title>
 	</head>
 	<body class="relative">
-		<WhatsappSVG tailwind={'h-16 w-16 z-10 fixed right-0 bottom-8'} />
-		<a href="#header">
-			<MdKeyboardArrowUp
-				className="fixed right-3 bottom-24 h-10 w-10 z-10 bg-blue-700 text-white rounded-full"
-			/>
-		</a>
+		<div class="w-18 fixed right-0 bottom-10 z-10 flex flex-col items-center">
+			<a href="#header">
+				<MdKeyboardArrowUp
+					className=" h-10 w-10 z-10 bg-blue-700 text-white rounded-full"
+				/>
+			</a>
+			<WhatsappSVG tailwind={'h-16 w-16'} />
+		</div>
 		<Hero />
 		<GenreFilter />
 		<Store />

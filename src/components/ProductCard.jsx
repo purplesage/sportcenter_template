@@ -20,7 +20,7 @@ const ProductCard = ({
 				src={imageURL}
 				alt={alt}
 			/>
-			<div className="flex flex-col items-center gap-2 rounded-b-lg bg-white p-3 ">
+			<div className="flex flex-col items-center gap-5 rounded-b-lg bg-white p-3 ">
 				<h3 className="text-center font-display text-base text-black">
 					{title}
 				</h3>
