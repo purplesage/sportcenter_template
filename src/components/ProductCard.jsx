@@ -25,7 +25,14 @@ const ProductCard = ({
 					{title}
 				</h3>
 				<hr className="w-1/3 border border-black/30" />
-				<p>{price}$</p>
+				{isDiscount ? (
+					<p className="flex gap-5">
+						<span className="text-black/30 line-through">${price}</span> $
+						{price - (discountAmount * price) / 100}
+					</p>
+				) : (
+					<p>${price}</p>
+				)}
 			</div>
 		</div>
 	);
