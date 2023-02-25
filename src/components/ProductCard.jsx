@@ -9,7 +9,7 @@ const ProductCard = ({
 	discountAmount,
 }) => {
 	return (
-		<div className="relative rounded-lg drop-shadow-lg">
+		<div className="relative rounded-lg shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]">
 			{isDiscount && (
 				<p className="absolute top-5 right-5 rounded bg-black px-2 py-1 text-white ">
 					-{discountAmount}%
