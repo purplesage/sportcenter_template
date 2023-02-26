@@ -7,8 +7,8 @@ import { TbTruckDelivery } from 'react-icons/tb/index';
 const Contact = () => {
 	return (
 		<section className="p-5">
-			<header className="relative my-5 flex justify-center will-change-auto intersect:animate-zoomIn">
-				<h2 className="absolute top-[4rem] z-10 font-display2 text-6xl text-orange-500 [text-shadow:_0_5px_0_rgb(0_0_0_/_55%)] intersect:animate-flipInX intersect:animate-slower">
+			<header className="relative my-5 flex justify-center will-change-auto intersect:animate-flipInY">
+				<h2 className="absolute top-[4rem] z-10 font-display2 text-6xl text-orange-500 [text-shadow:_0_5px_0_rgb(0_0_0_/_55%)] intersect:animate-flipInX intersect:animate-slow">
 					Contacto
 				</h2>
 				<img
