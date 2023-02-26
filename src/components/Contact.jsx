@@ -7,7 +7,7 @@ import { TbTruckDelivery } from 'react-icons/tb/index';
 const Contact = () => {
 	return (
 		<section className="p-5">
-			<header className="relative my-5 flex justify-center">
+			<header className="relative my-5 flex justify-center intersect:animate-rotateInDownLeft">
 				<h2 className="absolute top-[4rem] z-10 font-display2 text-6xl text-orange-500 [text-shadow:_0_5px_0_rgb(0_0_0_/_55%)]">
 					Contacto
 				</h2>
@@ -31,10 +31,10 @@ const Contact = () => {
 					src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7846.671525319769!2d-66.89536937486376!3d10.474175259811998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a58b659a2242d%3A0xa16045408caf76f9!2sC.%20C.%20Los%20Pr%C3%B3ceres!5e0!3m2!1ses!2sve!4v1677368290210!5m2!1ses!2sve"
 					width="300"
 					height="280"
-					allowfullscreen=""
+					allowFullScreen=""
 					loading="lazy"
 					className="mx-auto border-0"
-					referrerpolicy="no-referrer-when-downgrade"
+					referrerPolicy="no-referrer-when-downgrade"
 				></iframe>
 				<p className="flex items-center gap-2 font-body text-sm text-black/80">
 					<span>

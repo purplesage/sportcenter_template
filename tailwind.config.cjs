@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+const { withAnimations } = require('animated-tailwindcss')
+
+module.exports = withAnimations({
+  content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
 			fontFamily: {
@@ -10,5 +12,5 @@ module.exports = {
 			},
 		},
 	},
-	plugins: [require('@tailwindcss/forms')],
-};
+	plugins: [require('@tailwindcss/forms'), require('tailwindcss-intersect')],
+})
