@@ -1,5 +1,4 @@
 import React from 'react';
-import { TbHandClick } from 'react-icons/tb';
 
 const PersonCard = ({ title, imageURL, alt }) => {
 	return (

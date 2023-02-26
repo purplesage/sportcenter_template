@@ -1,6 +1,6 @@
 import React from 'react';
 import DumbellSVG from './DumbellSVG.jsx';
-import { BiMenu } from 'react-icons/bi';
+import { BiMenu } from 'react-icons/bi/index';
 
 const Header = () => {
 	return (
