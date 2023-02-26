@@ -6,7 +6,7 @@ const ShopFilters = () => {
 			<select
 				name="filtro-persona"
 				id="filtro-persona"
-				className="w-fit rounded-full border-2 border-white bg-orange-500 text-sm   text-white accent-white focus:border-orange-700 focus:ring-orange-700"
+				className="w-fit rounded-full border-2 border-white bg-orange-500 font-body  text-xs text-white accent-white focus:border-orange-700 focus:ring-orange-700 "
 			>
 				<option value="" disabled selected hidden>
 					Persona
@@ -20,7 +20,7 @@ const ShopFilters = () => {
 			<select
 				name="filtro-producto"
 				id="filtro-producto"
-				className="w-fit rounded-full border-2 border-white bg-orange-500 text-sm text-white   focus:border-orange-700 focus:ring-orange-700"
+				className="w-fit rounded-full border-2 border-white bg-orange-500 font-body text-xs   text-white focus:border-orange-700 focus:ring-orange-700"
 			>
 				<option value="" disabled selected hidden>
 					Producto
@@ -35,7 +35,7 @@ const ShopFilters = () => {
 			<select
 				name="filtro-precio"
 				id="filtro-precio"
-				className="w-fit rounded-full border-2 border-white bg-orange-500 text-sm text-white   focus:border-orange-700 focus:ring-orange-700"
+				className="w-fit rounded-full border-2 border-white bg-orange-500 font-body text-xs   text-white focus:border-orange-700 focus:ring-orange-700"
 			>
 				<option value="" disabled selected hidden>
 					Precio

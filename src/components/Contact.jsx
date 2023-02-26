@@ -18,7 +18,7 @@ const Contact = () => {
 				/>
 			</header>
 			<div className="mt-10 flex flex-col gap-3">
-				<h3 className="font-display text-lg font-semibold tracking-wider text-blue-600 ">
+				<h3 className="font-display text-lg font-semibold tracking-wider text-black/80 ">
 					Somos tienda física
 				</h3>
 				<p className="flex items-center gap-2 font-body text-sm">
@@ -36,15 +36,15 @@ const Contact = () => {
 					className="mx-auto border-0"
 					referrerpolicy="no-referrer-when-downgrade"
 				></iframe>
-				<p className="flex items-center gap-2 font-body text-lg text-black/80">
+				<p className="flex items-center gap-2 font-body text-sm text-black/80">
 					<span>
 						<BsFillTelephoneFill className="h-5 w-5 text-orange-500" />
 					</span>
 					Whatsapp +58 424 133 51 35
 				</p>
-				<p className="flex items-center gap-2 font-body text-lg font-semibold text-black/80">
+				<p className="flex items-center gap-2 font-body text-sm font-semibold text-black/80">
 					<span>
-						<TbTruckDelivery className="h-5 w-5 text-orange-500" />
+						<TbTruckDelivery className="h-6 w-6 text-orange-500" />
 					</span>
 					Realizamos envíos a todo el país.
 				</p>
