@@ -36,7 +36,7 @@ const Contact = () => {
 					className="mx-auto border-0"
 					referrerPolicy="no-referrer-when-downgrade"
 				></iframe>
-				<p className="flex items-center gap-2 font-body text-sm text-black/80">
+				<p className="mt-5 flex items-center gap-2 font-body text-sm text-black/80">
 					<span>
 						<BsFillTelephoneFill className="h-5 w-5 text-orange-500" />
 					</span>
