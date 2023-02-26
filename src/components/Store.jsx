@@ -15,7 +15,7 @@ const Store = () => {
 	return (
 		<section id="tienda" className=" h-fit bg-orange-500 p-3">
 			<header className="relative my-5 flex justify-center intersect:animate-fadeInLeft">
-				<h2 className="absolute top-[6rem] z-10 font-display2 text-6xl text-orange-500 [text-shadow:_0_5px_0_rgb(0_0_0_/_55%)]">
+				<h2 className="absolute top-[6rem] z-10 font-display2 text-6xl text-orange-500 animate-delay-300 [text-shadow:_0_5px_0_rgb(0_0_0_/_55%)] intersect:animate-fadeInDown">
 					Tienda
 				</h2>
 				<img
