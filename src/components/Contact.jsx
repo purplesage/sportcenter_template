@@ -1,7 +1,7 @@
 import React from 'react';
 import Telephone from '/telephone.webp';
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import { HiLocationMarker } from 'react-icons/hi';
+import { HiLocationMarker } from 'react-icons/hi/index';
 import { TbTruckDelivery } from 'react-icons/tb';
 
 const Contact = () => {

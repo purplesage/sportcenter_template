@@ -3,7 +3,7 @@ import AdidasSVG from './AdidasSVG';
 import RS21SVG from './RS21SVG';
 import WilsonSVG from './WilsonSVG';
 import ReebokSVG from './ReebokSVG';
-import { HiShoppingCart } from 'react-icons/hi';
+import { HiShoppingCart } from 'react-icons/hi/index';
 import Header from './Header';
 
 const Hero = () => {
