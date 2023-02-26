@@ -23,7 +23,7 @@ const Contact = () => {
 				</h3>
 				<p className="flex items-center gap-2 font-body text-sm">
 					<span>
-						<HiLocationMarker className="h-5 w-5 text-orange-500" />
+						<HiLocationMarker className="h-8 w-8 text-orange-500" />
 					</span>
 					Estamos ubicados en el C.C. Los Proceres, Caracas, Venezuela.
 				</p>
